@@ -1,0 +1,18 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# TypeScript
+dist/
+
+# OS / editor
+.DS_Store
+
+# Mobile app binaries (large; not suitable for Git — add locally, see e2e/builds/README.md)
+e2e/builds/*
+!e2e/builds/README.md
